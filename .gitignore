@@ -1,0 +1,17 @@
+# Node
+node_modules/
+.next/
+out/
+
+# Python
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+
+# App data
+services/excel_filler/data/
+services/excel_filler/exports/
+
+# Misc
+.DS_Store

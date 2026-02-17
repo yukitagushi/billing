@@ -1,0 +1,55 @@
+templates:
+  - template_key: keiei_kyoka
+    source_file: 001388353.xlsx
+    source_form_files:
+      - 001388353.xlsx
+    output_file: filled_001388353.xlsx
+    mappings:
+      APP0001:
+        sheet: "申請書"
+        cell: "AI1:AL1"
+        type: "text"
+      APP0002:
+        sheet: "申請書"
+        cell: "AN1:AP1"
+        type: "text"
+      APP0003:
+        sheet: "申請書"
+        cell: "AR1:AT1"
+        type: "text"
+      APP0004:
+        sheet: "申請書"
+        cell: "T13:AQ13"
+        type: "text"
+      APP0010:
+        sheet: "申請書"
+        cell: "T18"
+        type: "text"
+
+  - template_key: unchin_todoke
+    source_file: 001388356_converted.xlsx
+    source_form_files:
+      - 001388356.xls
+      - 001388356_converted.xlsx
+    output_file: filled_001388356.xlsx
+    mappings:
+      RATE0001:
+        sheet: "設定届"
+        cell: "H3:I3"
+        type: "number"
+      RATE0002:
+        sheet: "設定届"
+        cell: "H5"
+        type: "date_wareki"
+      RATE0003:
+        sheet: "設定届"
+        cell: "F9:J9"
+        type: "text"
+      RATE0101:
+        sheet: "変更届"
+        cell: "H3:I3"
+        type: "number"
+      RATE0102:
+        sheet: "変更届"
+        cell: "H5"
+        type: "date_wareki"
